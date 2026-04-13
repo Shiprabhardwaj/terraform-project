@@ -70,7 +70,7 @@ variable "node_groups" {
   }))
   default = {
     general = {
-      instance_types = ["t3.micro"]
+      instance_types = ["t3.small"]
       capacity_type  = "ON_DEMAND"
       scaling_config = {
         desired_capacity = 2
